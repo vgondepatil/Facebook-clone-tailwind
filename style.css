@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+
+@layer components{
+    
+    .btn{
+        @apply px-4 py-2 bg-purple-800 text-white text-sm  rounded-xl hover:bg-purple-700 active:bg-purple-900 focus:bg-black
+        focus:outline-red-700
+    }
+}
+.componentsafter{
+    text-align: left;
+}
+@tailwind utilities;
